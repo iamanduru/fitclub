@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+FitClub Project Documentation
+Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FitClub is a web application designed to promote fitness and wellness by providing users with tailored workout routines, nutrition plans, and progress tracking. Built with modern web technologies, FitClub offers an engaging and interactive platform for users to achieve their fitness goals.
 
-## Available Scripts
+This project is currently under development, and new features and enhancements are being added regularly to improve functionality and user experience.
+Key Features (Planned and In Progress)
 
-In the project directory, you can run:
+    User Registration and Profiles:
+    Personalized user profiles to track fitness journeys and goals.
 
-### `npm start`
+    Workout Plans:
+    Dynamic and customizable workout plans based on user preferences and fitness levels.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Nutrition Guidance:
+    Nutrition and meal planning tools to complement fitness routines.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Progress Tracking:
+    Visual tools like charts and reports to track workouts, weight, and other fitness metrics.
 
-### `npm test`
+    Responsive Design:
+    Fully responsive UI for seamless use across devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tech Stack
 
-### `npm run build`
+    Frontend: React.js, Tailwind CSS
+    Backend: Node.js, Express.js
+    Database: MongoDB
+    Deployment: Vercel (planned)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Setup and Installation
+Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ensure you have the following installed:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Node.js (v14.x or later): Download Node.js
+    npm or Yarn: Download Yarn
 
-### `npm run eject`
+Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/iamanduru/fitclub.git
+cd fitclub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Or, using Yarn:
 
-## Learn More
+yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the development server:
 
-### Code Splitting
+npm run dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Or:
 
-### Analyzing the Bundle Size
+yarn dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Access the application in your browser at:
 
-### Making a Progressive Web App
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Project Structure
 
-### Advanced Configuration
+fitclub/
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Application pages and routing
+│   ├── styles/            # Tailwind CSS and custom styles
+│   └── utils/             # Utility functions and helpers
+├── public/                # Static assets (images, icons, etc.)
+├── .env                   # Environment variables
+├── package.json           # Project metadata and dependencies
+└── README.md              # Project documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributing
 
-### Deployment
+FitClub is an open-source project, and contributions are welcome. If you'd like to contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    Fork the Repository: Click the "Fork" button on the repository page.
+    Create a Feature Branch:
 
-### `npm run build` fails to minify
+git checkout -b feature/your-feature-name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Commit Changes:
+
+git commit -m "Add: your-feature-description"
+
+Push Changes:
+
+    git push origin feature/your-feature-name
+
+    Open a Pull Request: Submit your pull request to the main repository for review.
+
+Roadmap
+
+Complete user authentication and authorization.
+Implement workout plan generator.
+Add progress tracking with charts and metrics.
+Integrate nutrition guidance and meal planning.
+
+    Deploy to production for public use.
+
+Support
+
+For any questions or issues, feel free to contact:
+Mitchelle Anduru
+Email: anyangomitchelle7@yahoo.com
+License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project in accordance with the license terms.
